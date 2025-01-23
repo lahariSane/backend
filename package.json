@@ -13,7 +13,7 @@
   "dependencies": {
     "@strapi/plugin-cloud": "5.8.0",
     "@strapi/plugin-users-permissions": "5.8.0",
-    "@strapi/strapi": "5.8.0",
+    "@strapi/strapi": "5.8.1",
     "@strapi/utils": "^5.8.0",
     "hostname": "^1.0.5",
     "mysql2": "3.9.8",
