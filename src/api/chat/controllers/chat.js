@@ -16,7 +16,7 @@ const io = new Server(strapi.server.httpServer, {
 const users = {};
 io.on('connection', (socket) => {
     socket.on('join', (userId) => {
-        users[userId] = socket.id;
+        users[userId.userId] = socket.id;
     });
 
     socket.on('disconnect', () => {

@@ -12,9 +12,9 @@ module.exports = [
   {
     name: 'strapi::cors',
     config: {
-      origin: ['http://127.0.0.1:3000'], // Your frontend URL
+      origin: '*', // Your frontend URL
       methods: ['GET', 'POST', 'PUT', 'DELETE'], // Allowed methods
-      allowedHeaders: ['Content-Type', 'Authorization', 'X-Requested-With'],
+      headers: ['Content-Type', 'Authorization', 'X-Requested-With', 'ngrok-skip-browser-warning'],
       credentials: true,
     },
   },
