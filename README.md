@@ -5,7 +5,7 @@ This backend is built using [Strapi](https://strapi.io/), a headless CMS framewo
 
 ### 1. Clone the Repository
 ```bash
-git clone <repository_url>
+git clone https://github.com/lahariSane/backend
 cd backend
 ```
 
@@ -21,5 +21,3 @@ npm run develop
 
 #### Frontend code at [repo link](https://github.com/lahariSane/chat-frontend)
 
-#### Difficulties faced during deployment
-[Document link](https://docs.google.com/document/d/1z39qT6G0VOypFQnmS4vZ_dnU4KgxVOO9U5q49CJxsvc/edit?usp=sharing)
